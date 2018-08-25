@@ -7,6 +7,8 @@
 	String strResult = (String) request.getAttribute("RESULT");
 %>
 
+	<h1>Calculator</h1>
+
 <form action="CalculatorServlet" method="post">
 
 	<input type="text" name="num1" /> <label>+</label>
